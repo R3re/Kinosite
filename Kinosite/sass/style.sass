@@ -1,0 +1,213 @@
+@import "../css/fonts.css"
+@import "../css/normalize.css"
+@import "../css/reset.css"
+@import "../css/responsive.css"
+
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
+body
+  font-family: 'Ubuntu', sans-serif
+
+a
+  display: block
+  text-decoration: none
+
+ul, li
+  display: inline-block
+  list-style-type: none
+
+h2
+  font-size: 60px
+  color: #ffffff
+
+h3
+  font-size: 56px
+  font-weight: 300
+  line-height: 72px
+  color: #ffffff
+
+h4
+  font-size: 28px
+  color: #242b2d
+
+h2, h4
+  font-weight: 700
+  line-height: 44px
+  text-transform: uppercase
+
+.categories
+  font-size: 22px
+  font-weight: 500
+  line-height: 33px
+  color: #47c3f0
+
+.white_text
+  font-size: 28px
+  font-weight: 400
+  line-height: 44px
+  color: #ffffff
+
+.container
+  max-width: 2400px
+  margin: 0 auto
+
+.wrapper
+  width: 100%
+  padding: 0 140px
+
+.header-shadow
+  position: absolute
+  width: 100%
+  min-height: 150px
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(255, 255, 255, 0.03))
+  z-index: 20
+
+.header
+  position: relative
+
+.header-inner
+  width: 100%
+  margin: 0 auto
+  padding-top: 25px
+  display: flex
+  justify-content: space-between
+
+.header__logo
+  margin-top: 25px
+  & img
+    background-size: cover
+    background-position: center center
+    background-repeat: no-repeat
+
+.header__right
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+.header__search-input
+  display: none
+.header__search-input input
+  margin-right: 20px
+  padding: 10px 25px
+  color: #fff
+  border: 1px solid #0aaee4
+  border-radius: 5px
+  background: transparent
+  &:focus
+    outline: none
+    border: 1px solid mediumvioletred
+    border-radius: 5px
+  &:hover
+    border: 1px solid mediumvioletred
+    border-radius: 5px
+  &::placeholder
+    color: #0aaee4
+
+.header__search
+  font-size: 28px
+  font-weight: 400
+  line-height: 44px
+  color: #fff
+  cursor: pointer
+  &:before
+    content: "\f002"
+    font-family: 'icomoon'
+    margin-right: 20px
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+
+.header__btn
+  margin-left: 60px
+.blue_btn
+  padding: 12px 45px
+  font-size: 28px
+  font-weight: 400
+  line-height: 44px
+  color: #ffffff
+  background-color: #0aaee4
+  border: none
+  border-radius: 10px
+
+.white_btn
+  padding: 10px 45px
+  font-size: 28px
+  font-weight: 400
+  line-height: 44px
+  color: #ffffff
+  background: transparent
+  border: 2px solid white
+  border-radius: 10px
+
+
+.header__slider
+  width: 100%
+  min-height: auto
+
+.header__slider-inner
+  width: 100%
+  overflow-x: hidden
+
+.header__slider-content
+  position: absolute
+  width: 100%
+  padding-top: 140px
+  margin-top: -386px
+  min-height: 386px
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.95), rgba(255, 255, 255, 0.03))
+
+.header__slider-text
+  width: 100%
+  font-size: 24px
+  font-weight: 400
+  & ul
+    margin-top: 27px
+    min-height: 24px
+  & a
+    color: white
+  & li+li
+    margin-left: 20px
+  & li:nth-last-child(1)
+    padding-left: 20px
+    border-left: 1px solid #fff
+
+.header__content-rating
+  display: flex
+  align-items: center
+  & img
+    margin-right: 20px
+
+.top__raiting
+  display: inline-block
+  padding: 9px 13px
+  font-size: 24px
+  font-weight: 500
+  color: #ffffff
+  border: 3px solid #0aaee4
+  border-radius: 5px
+
+.header__content-bottom
+  display: flex
+  flex-wrap: nowrap
+  justify-content: space-between
+  align-items: center
+  margin-top: 30px
+
+.content__btn, .content__btn2
+  margin-right: 30px
+  &:hover
+    cursor: pointer
+    background-color: red
+.content__btn2:hover
+  cursor: pointer
+  background-color: rgba(255,255,255,0.3)
+
+.header__content-buttons
+  display: flex
+  align-items: center
+  & a
+    color: #ffffff
+.header__content-buttons img
+  margin-left: 30px
