@@ -1,11 +1,289 @@
 /* Landscape - телефоны */
-@media (max-width: 480px)
+@media screen and (max-width: 480px) {
+	.wrapper {
+		padding: 0 10px;
+	}
+	.header-shadow {
+		height: 30px;
+		background: transparent;
+	}
+	.header-inner {
+		padding-top: 5px;
+	}
+	.header__logo {
+		margin-top: 5px;
+	}
+	.header__logo img {
+		max-width: 50px;
+		height: 10px;
+	}
 
+	.header__search {
+		font-size: 10px;
+		line-height: unset;
+	}
+	.header__search:before {
+		margin-right: 5px;
+	}
+
+	.header__search-input input {
+		font-size: 10px;
+		padding: 2px 10px;
+		margin-right: 10px;
+	}
+
+	.blue_btn {
+		padding: 5px 15px;
+		font-size: 10px;
+		line-height: unset;
+		margin-left: 20px;
+		margin-top: 2px;
+	}
+
+	/*slider-content*/
+	.header__slider-content {
+		min-height: 80px;
+		margin-top: -80px;
+		background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(255, 255, 255, 0.03));
+	}
+
+	.header__slider-content-top {
+		margin-top: 10px;
+	}
+
+	.slider-content-category {
+		font-size: 5px;
+		margin-top: 5px;
+	}
+
+	.slider-content-info h2 {
+		font-size: 15px;
+		line-height: 15px;
+	}
+
+	.slider-content-category li+li {
+		margin-left: 8px;
+	}
+	.slider-content-category li:nth-last-child(1) {
+		padding-left: 8px;
+	}
+}
 /* От ландшафтного экрана телефона до потретного планшета */
-@media (max-width: 767px)
+@media screen and (min-width: 481px) and (max-width: 767px) {
+	.wrapper {
+		padding: 0 30px;
+	}
+	.header-shadow {
+		min-height: 90px;
+	}
+	.header-inner {
+		padding-top: 15px;
+	}
+	.header__logo {
+		margin-top: 5px;
+	}
+	.header__logo img {
+		max-width: 80px;
+		height: 15px;
+	}
 
+	.header__search {
+		font-size: 14px;
+		line-height: unset;
+	}
+	.header__search:before {
+		margin-right: 5px;
+	}
+
+	.header__search-input input {
+		font-size: 10px;
+		padding: 2px 10px;
+		margin-right: 10px;
+	}
+
+	.blue_btn {
+		padding: 5px 15px;
+		font-size: 14px;
+		line-height: unset;
+		margin-left: 20px;
+		margin-top: 2px;
+	}
+
+	/*slider-content*/
+	.header__slider-content {
+		min-height: 140px;
+		margin-top: -140px;
+	}
+
+	.header__slider-content-top {
+		margin-top: 20px;
+	}
+
+	.slider-content-category {
+		font-size: 16px;
+		margin-top: 20px;
+	}
+
+	.slider-content-info h2 {
+		font-size: 25px;
+		line-height: 34px;
+	}
+	.slider-content-category {
+		font-size: 10px;
+		margin-top: 5px;
+	}
+	.slider-content-category li+li {
+		margin-left: 8px;
+	}
+	.slider-content-category li:nth-last-child(1) {
+		padding-left: 8px;
+	}
+}
 /* От портретного планшета до ландшафтного экрана и настольных дисплеев */
-@media (min-width: 768px) and (max-width: 979px)
+@media screen and (min-width: 768px) and (max-width: 979px) {
+	/*header*/
+	.wrapper {
+		padding: 0 30px;
+	}
+	.header-shadow {
+		min-height: 90px;
+	}
+	.header-inner {
+		padding-top: 15px;
+	}
+	.header__logo {
+		margin-top: 5px;
+	}
+	.header__logo img {
+		max-width: 100px;
+		height: 25px;
+	}
+
+	.header__search {
+		font-size: 18px;
+		line-height: unset;
+	}
+	.header__search:before {
+		margin-right: 10px;
+	}
+
+	.header__search-input input {
+		font-size: 14px;
+		padding: 5px 20px;
+		margin-right: 15px;
+	}
+
+	.blue_btn {
+		padding: 5px 15px;
+		font-size: 18px;
+		line-height: unset;
+		margin-left: 30px;
+		margin-top: 2px;
+	}
+
+	/*slider-content*/
+	.header__slider-content {
+		min-height: 170px;
+		margin-top: -170px;
+	}
+
+	.header__slider-content-top {
+		margin-top: 30px;
+	}
+
+	.slider-content-category {
+		font-size: 16px;
+		margin-top: 20px;
+	}
+
+	.slider-content-info h2 {
+		font-size: 35px;
+		line-height: 34px;
+	}
+	.slider-content-category {
+		font-size: 14px;
+		margin-top: 5px;
+	}
+	.slider-content-category li+li {
+		margin-left: 8px;
+	}
+	.slider-content-category li:nth-last-child(1) {
+		padding-left: 8px;
+	}
+}
 
 /* Большой дисплей */
-@media (min-width: 1200px)
+@media screen and (min-width: 980px) and (max-width: 1280px) {
+	.wrapper {
+		padding: 0 70px;
+	}
+	.header-shadow {
+		min-height: 90px;
+	}
+	.header-inner {
+		padding-top: 20px;
+	}
+	.header__logo {
+		margin-top: 5px;
+	}
+	.header__logo img {
+		max-width: 100px;
+		height: 25px;
+	}
+
+	.header__search {
+		font-size: 18px;
+		line-height: unset;
+	}
+	.header__search:before {
+		margin-right: 10px;
+	}
+
+	.header__search-input input {
+		font-size: 14px;
+		padding: 5px 20px;
+		margin-right: 15px;
+	}
+
+	.blue_btn {
+		padding: 5px 15px;
+		font-size: 18px;
+		line-height: unset;
+		margin-left: 30px;
+		margin-top: 2px;
+	}
+
+	/*slider-content*/
+	.header__slider-content {
+		min-height: 170px;
+		margin-top: -170px;
+	}
+
+	.header__slider-content-top {
+		margin-top: 30px;
+	}
+
+	.slider-content-category {
+		font-size: 16px;
+		margin-top: 20px;
+	}
+
+	.slider-content-info h2 {
+		font-size: 35px;
+		line-height: 34px;
+	}
+	.slider-content-category {
+		font-size: 14px;
+		margin-top: 5px;
+	}
+	.slider-content-category li+li {
+		margin-left: 8px;
+	}
+	.slider-content-category li:nth-last-child(1) {
+		padding-left: 8px;
+	}
+}
+
+@media screen and (min-width: 1281px) {
+
+}
