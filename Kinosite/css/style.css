@@ -10,6 +10,7 @@
 
 body {
   font-family: 'Ubuntu', sans-serif;
+  background-color: #f5f6f6;
 }
 
 a {
@@ -35,7 +36,7 @@ h3 {
 }
 
 h4 {
-  font-size: 28px;
+  font-size: 24px;
   color: #242b2d;
 }
 
@@ -46,10 +47,19 @@ h2, h4 {
 }
 
 .categories {
-  font-size: 22px;
+  margin-top: 20px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 33px;
   color: #47c3f0;
+}
+
+.categories a {
+  color: inherit;
+}
+
+.categories li:hover a {
+  font-weight: 700;
 }
 
 .white_text {
@@ -203,7 +213,7 @@ h2, h4 {
 }
 
 .slider__white_btn:hover {
-  border: 2px solid red;
+  border: 2px solid green;
 }
 
 .slider__white_btn:focus {
@@ -293,6 +303,10 @@ h2, h4 {
   color: #fff;
 }
 
+.rt-blue {
+  color: #0aaee4;
+}
+
 .slider-content-buttons {
   display: flex;
   justify-content: flex-end;
@@ -303,4 +317,138 @@ h2, h4 {
   margin-right: 30px;
   font-size: 24px;
   color: #fff;
+}
+
+.main__content {
+  width: 100%;
+  padding-top: 75px;
+}
+
+.main__content-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eaecec;
+}
+
+.main__crumps {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.main__crumps li + li {
+  margin-left: 20px;
+}
+
+.main__crumps a {
+  color: #0aaee4;
+}
+
+.main__crumps li:hover a {
+  font-weight: 700;
+}
+
+.main__content-top-sorters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__content-top-sorters div + div {
+  margin-left: 15px;
+}
+
+.main__content-films {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.films-info {
+  width: 23%;
+  height: auto;
+  margin-bottom: 40px;
+  background-color: #fff;
+  box-shadow: 0 3px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.films__img img {
+  width: 100%;
+  height: auto;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.film-info-inner {
+  padding: 20px;
+}
+
+.film-info-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.main__films-subscribe {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/subscribe_collage.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.main__films-subscribe h3 {
+  margin-top: 130px;
+  margin-bottom: 40px;
+  max-width: 600px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 38px;
+  z-index: 3;
+}
+
+.main__films-subscribe:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 2;
+}
+
+.subscribe__btn {
+  margin-bottom: 120px;
+  z-index: 3;
+  padding: 12px 45px;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 44px;
+  color: #ffffff;
+  background-color: #0aaee4;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.subscribe__btn:hover {
+  background-color: green;
+}
+
+.subscribe__btn:focus {
+  outline: none;
 }
