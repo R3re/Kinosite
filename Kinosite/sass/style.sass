@@ -357,3 +357,83 @@ h2, h4
   &:focus
     outline: none
 
+.main__loading-bar
+  width: 100%
+
+.loading-bar-inner
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  margin: 100px 0
+  & span
+    margin-top: 16px
+    font-size: 22px
+    font-weight: 500
+    line-height: 33px
+    opacity: .35
+    color: #242b2d
+
+.footer
+  width: 100%
+  padding-top: 70px
+  padding-bottom: 40px
+  text-align: center
+  background-color: #fff
+
+.footer-inner
+  width: 100%
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin-bottom: 50px
+
+.footer__menu
+  display: flex
+  justify-content: flex-start
+  width: 33%
+  font-size: 24px
+  font-weight: 400
+  line-height: 44px
+  opacity: 0.4
+  color: #242b2d
+  & li+li
+    margin-left: 10px
+  & li:hover a
+    font-weight: 700
+    color: #0aaee4
+
+.footer__logo
+  width: 33%
+  text-align: center
+
+.footer__sprite
+  display: flex
+  justify-content: flex-end
+  width: 33%
+  min-height: 40px
+  font-size: 0
+  & li
+    width: 36px
+    height: 36px
+    background-image: url("../img/sprite/sprite.png")
+  & li+li
+    margin-left: 15px
+
+.sprite-fb
+  background-position: -55px, 0
+.sprite-tw
+  background-position: -147px -5px
+.sprite-pin
+  background-position: -95px -9px
+.sprite-inst
+  background-position: -9px -7px
+.sprite-you
+  background-position: -202px -8px
+
+.footer__copyright
+  font-size: 24px
+  font-weight: 400
+  line-height: 44px
+  opacity: 0.4
+  color: #242b2d

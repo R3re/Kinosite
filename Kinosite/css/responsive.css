@@ -163,6 +163,50 @@
 		line-height: unset;
 		margin-bottom: 80px;
 	}
+
+	/*footer*/
+	.footer {
+		padding-top: 40px;
+	}
+
+	.loading-bar-img img {
+		width: 50px;
+		height: 13px;
+	}
+
+	.footer-inner {
+		margin-bottom: 20px;
+		flex-direction: column;
+	}
+
+	.footer__menu {
+		width: 100%;
+		margin-bottom: 20px;
+		font-size: 20px;
+		justify-content: center;
+	}
+
+	.footer__logo {
+		display: none;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.footer__logo img {
+		width: 100px;
+		height: 25px;
+	}
+
+	.footer__sprite {
+		width: 100%;
+		justify-content: center;
+	}
+
+	.footer__copyright {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: unset;
+	}
+
 }
 /* От ландшафтного экрана телефона до потретного планшета */
 @media screen and (min-width: 481px) and (max-width: 767px) {
@@ -319,6 +363,49 @@
 		line-height: unset;
 		margin-bottom: 80px;
 	}
+
+	/*footer*/
+	.footer {
+		padding-top: 40px;
+	}
+
+	.loading-bar-img img {
+		width: 50px;
+		height: 13px;
+	}
+
+	.footer-inner {
+		margin-bottom: 20px;
+		flex-direction: column;
+	}
+
+	.footer__menu {
+		width: 100%;
+		margin-bottom: 20px;
+		font-size: 20px;
+		justify-content: center;
+	}
+
+	.footer__logo {
+		display: none;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.footer__logo img {
+		width: 100px;
+		height: 25px;
+	}
+
+	.footer__sprite {
+		width: 100%;
+		justify-content: center;
+	}
+
+	.footer__copyright {
+		font-size: 18px;
+		font-weight: 400;
+		line-height: unset;
+	}
 }
 /* От портретного планшета до ландшафтного экрана и настольных дисплеев */
 @media screen and (min-width: 768px) and (max-width: 979px) {
@@ -458,6 +545,43 @@
 		font-size: 20px;
 		line-height: unset;
 	}
+
+	/*footer*/
+	.footer {
+		padding-top: 40px;
+	}
+
+	.loading-bar-img img {
+		width: 50px;
+		height: 13px;
+	}
+
+	.footer-inner {
+		margin-bottom: 20px;
+		flex-direction: column;
+	}
+
+	.footer__menu {
+		width: 100%;
+		margin-bottom: 20px;
+		font-size: 20px;
+		justify-content: center;
+	}
+
+	.footer__logo {
+		display: none;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.footer__logo img {
+		width: 100px;
+		height: 25px;
+	}
+
+	.footer__sprite {
+		width: 100%;
+		justify-content: center;
+	}
 }
 
 /* Большой дисплей */
@@ -584,6 +708,25 @@
 	.rating-count {
 		padding: 4px 8px;
 		font-size: 18px;
+	}
+
+	/*footer*/
+	.loading-bar-img img {
+		width: 50px;
+		height: 13px;
+	}
+
+	.footer-inner {
+		margin-bottom: 30px;
+	}
+
+	.footer__menu {
+		font-size: 20px;
+	}
+
+	.footer__logo img {
+		width: 100px;
+		height: 25px;
 	}
 }
 
@@ -714,6 +857,11 @@
 	.rating-count {
 		padding: 4px 8px;
 		font-size: 18px;
+	}
+
+	/*footer*/
+	.footer__menu {
+		font-size: 22px;
 	}
 }
 
