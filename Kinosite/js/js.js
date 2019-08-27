@@ -8,13 +8,12 @@ $(document).on('click', function(e) {
     e.stopPropagation();
 });
 
-// $(function(){
-//     $('.header__slider').slick({
-//         dots: true,
-//         vertical: true,
-//         verticalSwiping: true,
-//         arrows: false,
-//         autoplay: false,
-//         autoplaySpeed: 5000
-//     });
-// });
+$(function(){
+    $('.header__slider').slick({
+        vertical: true,
+        verticalSwiping: true,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 5000
+    });
+});

@@ -2,6 +2,10 @@
 @import "../css/normalize.css"
 @import "../css/reset.css"
 @import "../css/responsive.css"
+@mixin bg-image
+  background-size: cover
+  background-position: center center
+  background-repeat: no-repeat
 
 *
   box-sizing: border-box
@@ -285,11 +289,18 @@ h2, h4
   flex-wrap: wrap
 
 .films-info
+  position: relative
   width: 23%
   height: auto
   margin-bottom: 40px
   background-color: #fff
   box-shadow: 0 3px 10px 5px rgba(0, 0, 0, .2)
+  &:hover .films-info-main
+    display: none
+  &:hover .films__viewmore-blackblock
+    display: block
+    position: relative
+    cursor: pointer
 
 .films__img
   & img
@@ -308,6 +319,73 @@ h2, h4
   justify-content: space-between
   align-items: center
   flex-wrap: nowrap
+
+.films-info-main
+  position: absolute
+
+
+
+/* BLACK BLOCK VIEW INFO */
+.films__viewmore-blackblock
+  display: none
+  position: absolute
+  background-image: url("../img/films/film1.jpg")
+  @include bg-image
+
+.viewmore-blackblock-inner
+  padding: 20px 20px 28px 20px
+  background-color: rgba(0, 0, 0, .7)
+
+.viewmore-blackblock-top
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+.blackblock-top-favorite
+  display: flex
+  align-items: center
+  & span
+    margin-right: 20px
+    font-size: 20px
+    font-weight: 400
+    color: #fff
+  & img
+    width: 6px
+    height: 22px
+
+.close__black-img
+  width: 20px
+  height: 20px
+
+.viewmore-blackblock-desc
+  display: flex
+  justify-content: space-between
+  align-items: baseline
+  margin-top: 40px
+  margin-bottom: 30px
+
+.blackblock-desc-categories
+  h4
+    font-size: 24px
+    line-height: 24px
+    color: #fff
+  ul
+    font-size: 18px
+
+.black_categories
+  margin-top: 0
+
+.viewmore-blackblock-text
+  font-size: 20px
+  line-height: 24px
+  color: #fff
+
+.blackblock__btn
+  padding: 12px 15px
+  margin-left: 0 !important
+  margin: 45px
+  border-radius: 5px
+
 
 .main__films-subscribe
   position: relative

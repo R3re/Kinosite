@@ -133,6 +133,10 @@
 		width: 100%;
 	}
 
+	.films-info-main {
+		position: unset;
+	}
+
 	.film-info-top h4 {
 		font-size: 18px;
 	}
@@ -205,6 +209,55 @@
 		font-size: 16px;
 		font-weight: 400;
 		line-height: unset;
+	}
+
+	/*black-block-VIEW INFO*/
+	.films__viewmore-blackblock {
+	}
+	.viewmore-blackblock-inner {
+		padding: 20px;
+	}
+	.blackblock-top-favorite {
+		font-size: 16px;
+	}
+	.blackblock-top-favorite span {
+		font-size: 20px;
+	}
+	.close__black-img {
+		width: 18px;
+		height: 18px;
+	}
+
+	.viewmore-blackblock-desc {
+		margin: 30px 0;
+	}
+
+	.black_categories {
+		font-size: 16px;
+	}
+
+	.blackblock-desc-categories h4 {
+		font-size: 24px;
+	}
+
+	.rating-count {
+		font-size: 20px;
+	}
+
+	.viewmore-blackblock-text {
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	.blackblock__btn {
+		font-size: 20px;
+		padding: 20px 20px;
+		margin: 35px 0;
+	}
+
+	.blackblock__btn:hover {
+		background-color: red;
+		cursor: pointer;
 	}
 
 }
@@ -406,6 +459,56 @@
 		font-weight: 400;
 		line-height: unset;
 	}
+
+	/*black-block-VIEW INFO*/
+	.films__viewmore-blackblock {
+		height: 100%;
+	}
+	.viewmore-blackblock-inner {
+		height: 100%;
+		padding: 20px;
+	}
+	.blackblock-top-favorite {
+		font-size: 16px;
+	}
+	.blackblock-top-favorite span {
+		font-size: 20px;
+	}
+	.close__black-img {
+		width: 18px;
+		height: 18px;
+	}
+
+	.viewmore-blackblock-desc {
+		margin: 25px 0;
+	}
+
+	.black_categories {
+		font-size: 16px;
+	}
+
+	.blackblock-desc-categories h4 {
+		font-size: 20px;
+	}
+
+	.rating-count {
+		font-size: 16px;
+	}
+
+	.viewmore-blackblock-text {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.blackblock__btn {
+		padding: 20px 20px;
+		margin: 35px 0;
+	}
+
+	.blackblock__btn:hover {
+		background-color: red;
+		cursor: pointer;
+	}
 }
 /* От портретного планшета до ландшафтного экрана и настольных дисплеев */
 @media screen and (min-width: 768px) and (max-width: 979px) {
@@ -582,6 +685,56 @@
 		width: 100%;
 		justify-content: center;
 	}
+
+	/*black-block-VIEW INFO*/
+	.films__viewmore-blackblock {
+		height: 100%;
+	}
+	.viewmore-blackblock-inner {
+		height: 100%;
+		padding: 18px;
+	}
+	.blackblock-top-favorite {
+		font-size: 16px;
+	}
+	.blackblock-top-favorite span {
+		font-size: 16px;
+	}
+	.close__black-img {
+		width: 18px;
+		height: 18px;
+	}
+
+	.viewmore-blackblock-desc {
+		margin: 15px 0;
+	}
+
+	.black_categories {
+		font-size: 12px;
+	}
+
+	.blackblock-desc-categories h4 {
+		font-size: 16px;
+	}
+
+	.rating-count {
+		font-size: 14px;
+	}
+
+	.viewmore-blackblock-text {
+		font-size: 10px;
+		line-height: 14px;
+	}
+
+	.blackblock__btn {
+		padding: 15px 10px;
+		margin: 24px 0;
+	}
+
+	.blackblock__btn:hover {
+		background-color: red;
+		cursor: pointer;
+	}
 }
 
 /* Большой дисплей */
@@ -728,6 +881,50 @@
 		width: 100px;
 		height: 25px;
 	}
+
+	/*black-block-VIEW INFO*/
+	.films__viewmore-blackblock {
+		height: 100%;
+	}
+	.viewmore-blackblock-inner {
+		height: 100%;
+		padding: 18px;
+	}
+	.blackblock-top-favorite {
+		font-size: 16px;
+	}
+	.close__black-img {
+		width: 18px;
+		height: 18px;
+	}
+
+	.viewmore-blackblock-desc {
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+
+	.blackblock-desc-categories h4 {
+		font-size: 12px;
+	}
+
+	.rating-count {
+		font-size: 14px;
+	}
+
+	.viewmore-blackblock-text {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.blackblock__btn {
+		padding: 15px 10px;
+		margin: 24px 0;
+	}
+
+	.blackblock__btn:hover {
+		background-color: red;
+		cursor: pointer;
+	}
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1400px) {
@@ -863,6 +1060,59 @@
 	.footer__menu {
 		font-size: 22px;
 	}
+
+	/*black-block-VIEW INFO*/
+	.films__viewmore-blackblock {
+		height: 100%;
+	}
+	.viewmore-blackblock-inner {
+		height: 100%;
+		padding: 18px;
+	}
+	.blackblock-top-favorite {
+		font-size: 16px;
+	}
+
+	.blackblock-top-favorite span {
+		font-size: 16px;
+	}
+
+	.close__black-img {
+		width: 18px;
+		height: 18px;
+	}
+
+	.viewmore-blackblock-desc {
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+
+	.blackblock-desc-categories h4 {
+		font-size: 16px;
+	}
+
+	.blackblock-desc-categories ul {
+		font-size: 12px;
+	}
+
+	.rating-count {
+		font-size: 14px;
+	}
+
+	.viewmore-blackblock-text {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.blackblock__btn {
+		padding: 15px 10px;
+		margin: 24px 0;
+	}
+
+	.blackblock__btn:hover {
+		background-color: red;
+		cursor: pointer;
+	}
 }
 
 @media screen and (min-width: 1401px) and (max-width: 1600px) {
@@ -878,8 +1128,16 @@
 		padding: 4px 8px;
 		font-size: 20px;
 	}
+
+	.blackblock__btn:hover {
+		background-color: red;
+		cursor: pointer;
+	}
 }
 
 @media screen and (max-width: 1601px) {
-
+	.blackblock__btn:hover {
+		background-color: red;
+		cursor: pointer;
+	}
 }
